@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  portfolio-client:
+    image: covid:app
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: covid-app
+    restart: always
+    ports: ["8080:80"]
+    volumes:
+      - ./build:/usr/share/nginx/html
