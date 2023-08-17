@@ -1,6 +1,5 @@
 {
   "name": "covid-app",
-  "homepage": "https://portfolio.apikritch.com/project/covid-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
