@@ -84,13 +84,13 @@ const App = () => {
 
   if (!isLoaded) {
     return (
-      <div className="min-w-screen flex min-h-screen items-center justify-center">
+      <div className="min-w-screen my-font flex min-h-screen items-center justify-center text-[4rem] font-medium">
         Loading
       </div>
     );
   } else if (error) {
     return (
-      <div className="min-w-screen flex min-h-screen items-center justify-center">
+      <div className="min-w-screen my-font flex min-h-screen items-center justify-center text-[4rem] font-medium">
         {error.message}
       </div>
     );
